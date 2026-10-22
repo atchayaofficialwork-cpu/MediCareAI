@@ -1,0 +1,43 @@
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Generated machine learning models
+models/*.joblib
+models/*.pkl
+
+# Generated reports
+reports/*.json
+
+# SQLite database
+medicare.db
+*.sqlite
+*.sqlite3
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Python testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/

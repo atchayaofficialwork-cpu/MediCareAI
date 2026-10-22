@@ -1,0 +1,59 @@
+{
+    "dataset": "Pima Indians Diabetes dataset",
+    "rows_used": 768,
+    "features": [
+        "Pregnancies",
+        "Glucose",
+        "BloodPressure",
+        "SkinThickness",
+        "Insulin",
+        "BMI",
+        "DiabetesPedigreeFunction",
+        "Age"
+    ],
+    "target": "Outcome",
+    "accuracy": 0.7338,
+    "balanced_accuracy": 0.7269,
+    "precision": 0.6032,
+    "recall": 0.7037,
+    "f1_score": 0.6496,
+    "roc_auc": 0.8126,
+    "confusion_matrix": [
+        [
+            75,
+            25
+        ],
+        [
+            16,
+            38
+        ]
+    ],
+    "classification_report": {
+        "0": {
+            "precision": 0.8241758241758241,
+            "recall": 0.75,
+            "f1-score": 0.7853403141361257,
+            "support": 100.0
+        },
+        "1": {
+            "precision": 0.6031746031746031,
+            "recall": 0.7037037037037037,
+            "f1-score": 0.6495726495726496,
+            "support": 54.0
+        },
+        "accuracy": 0.7337662337662337,
+        "macro avg": {
+            "precision": 0.7136752136752136,
+            "recall": 0.7268518518518519,
+            "f1-score": 0.7174564818543876,
+            "support": 154.0
+        },
+        "weighted avg": {
+            "precision": 0.7466818895390324,
+            "recall": 0.7337662337662337,
+            "f1-score": 0.737733470717764,
+            "support": 154.0
+        }
+    },
+    "warning": "Educational model only. Not clinically validated and not suitable for diagnosis or treatment decisions."
+}

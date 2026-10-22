@@ -1,0 +1,64 @@
+{
+    "dataset": "Cleveland heart disease dataset",
+    "rows_used": 303,
+    "features": [
+        "age",
+        "sex",
+        "cp",
+        "trestbps",
+        "chol",
+        "fbs",
+        "restecg",
+        "thalach",
+        "exang",
+        "oldpeak",
+        "slope",
+        "ca",
+        "thal"
+    ],
+    "target_definition": "0 = dataset target negative; 1 = target positive",
+    "accuracy": 0.7869,
+    "balanced_accuracy": 0.7787,
+    "precision": 0.7632,
+    "recall": 0.8788,
+    "f1_score": 0.8169,
+    "roc_auc": 0.8712,
+    "confusion_matrix": [
+        [
+            19,
+            9
+        ],
+        [
+            4,
+            29
+        ]
+    ],
+    "classification_report": {
+        "0": {
+            "precision": 0.8260869565217391,
+            "recall": 0.6785714285714286,
+            "f1-score": 0.7450980392156863,
+            "support": 28.0
+        },
+        "1": {
+            "precision": 0.7631578947368421,
+            "recall": 0.8787878787878788,
+            "f1-score": 0.8169014084507042,
+            "support": 33.0
+        },
+        "accuracy": 0.7868852459016393,
+        "macro avg": {
+            "precision": 0.7946224256292906,
+            "recall": 0.7786796536796536,
+            "f1-score": 0.7809997238331953,
+            "support": 61.0
+        },
+        "weighted avg": {
+            "precision": 0.7920433657200735,
+            "recall": 0.7868852459016393,
+            "f1-score": 0.7839424848674174,
+            "support": 61.0
+        }
+    },
+    "warning": "Educational prototype only. Not clinically validated and not suitable for diagnosis or treatment decisions."
+}
